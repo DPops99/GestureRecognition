@@ -30,7 +30,7 @@ While runnig the program you can press ```r``` to refresh the backgound image. T
 
 To stop the program press ```q```.
 
-# Limitaions
+## Limitaions
 This method should be used in a room with good lightning. Dim lighting and having bracelets can lead to incorrect results. The angle between shouldn't be greater than 80° or othrewise the results will be incorrect as shown in the image.
 
 ![img_4](/images/img_4.png)
