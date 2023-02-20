@@ -114,7 +114,10 @@ if __name__ == "__main__":
                                     1,(255,255,255),2,cv2.LINE_4)
 
                 if args.thresh == 1:
-                    cv2.imshow("Thesholded", thresholded)
+                    window_name = "Thesholded"
+                    cv2.namedWindow(window_name) 
+                    cv2.moveWindow(window_name, 100,500)
+                    cv2.imshow(window_name, thresholded)
 
         cv2.rectangle(clone, (left, top), (right, bottom), (0,255,0), 2)
 
